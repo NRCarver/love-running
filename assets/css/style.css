@@ -254,3 +254,35 @@ footer {
 #photos > img {
     width:100%
 }
+
+/* media queries */
+
+@media screen and (max-width: 1200px)   {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px;
+        margin: 0;
+    }
+
+    #left-about, #right-about {
+        float: left;
+        padding: 0;
+        width: 100%
+    }
+
+    #center-about {
+        clear: both;
+        float: left;
+        width: 100%;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+}
